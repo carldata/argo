@@ -1,21 +1,24 @@
-# argo
-Worskapce for data science POCs  made for ARGO project
+# Argo project
+
+Models for Time Series prediction
+
+File structure:
+
+  * /datasets  - contains all input dataset. Big datasets should be put as *.gz files, so they won't be stored.
+  * /notebooks - Jupyter notebooks
 
 
+## Installation
 
-# Join in!
-
-We are happy to receive bug reports, fixes, documentation enhancements,
-and other improvements.
-
-Please report bugs via the
-[github issue tracker](http://github.com/carldata/argo/issues).
-
+All notebooks require:
+ * Pyhon 3 with data science libs (use anaconda)
+ * TensorFlow >= 1.4
 
 
 # Redistributing
 
-FlowScript source code is distributed under the Apache-2.0 license.
+Argo source code is distributed under the Apache-2.0 license.
+
 
 **Contributions**
 
