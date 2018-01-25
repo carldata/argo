@@ -4,7 +4,7 @@ Models for Time Series prediction
 
 File structure:
 
-  * /datasets  - contains all input dataset. Big datasets should be put as *.gz files, so they won't be stored. Datasets are stored on google drive company account.https://drive.google.com/open?id=1sZ1KSftjd7GRxbc5ojUq8vG8buPfOKX-
+  * /datasets  - contains all input dataset. Big datasets should be put as *.gz files, so they won't be stored. 
   * /notebooks - Jupyter notebooks
 
 
