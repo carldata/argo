@@ -4,7 +4,7 @@ Models for Time Series prediction
 
 File structure:
 
-  * /datasets  - contains all input dataset. Big datasets should be put as *.gz files, so they won't be stored.
+  * /datasets  - contains all input dataset. Big datasets should be put as *.gz files, so they won't be stored. 
   * /notebooks - Jupyter notebooks
 
 
