@@ -2,7 +2,7 @@
 *.iml
 __pycache__/
 *.py[cod]
-*.gz
+datasets/
 .Trash*/
 .ipynb_checkpoints/
 logs/
