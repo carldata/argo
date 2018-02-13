@@ -6,3 +6,4 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
 CMD ["borsukStart.py"]
+EXPOSE 80
