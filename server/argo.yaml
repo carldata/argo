@@ -1,17 +1,17 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: borsuk-backend-deployment
+  name: argo-server
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: borsuk-backend
+        app: argo-server
     spec:
       containers:
-      - name: borsuk-backend-container
-        image: flowworks-carlsolutions.azurecr.io/flowworks/borsuk-backend:latest
+      - name: argo-server-container
+        image: flowworks-carlsolutions.azurecr.io/flowworks/argo-server:latest
         ports:
         - containerPort: 80    
       imagePullSecrets:
