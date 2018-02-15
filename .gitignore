@@ -6,3 +6,4 @@ datasets/
 .Trash*/
 .ipynb_checkpoints/
 logs/
+server/.vscode/
