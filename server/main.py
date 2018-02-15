@@ -1,21 +1,30 @@
-from flask import Flask
+from flask import Flask, request
+from prediction import predict
 app = Flask(__name__)
 
 
 @app.route("/")
 def main():
-    return "Hey Main!"
+    return "Argo"
 
 
-@app.route("/first")
-def hello():
-    return "Hey First!"
+@app.route("/healthcheck")
+def health_check():
+    return "Ok."
 
 
-@app.route("/second")
-def inny():
-    return "Hey Second!"
+@app.route("/api/prediction/<string:project_id>")
+def prediction(project_id):    
+    flow = request.args.get('flow', None)
+    day = request.args.get('day', None)
+    if flow is None:
+        return "Error: flow parameter is empty"
+    if day is None:
+        return "Error: day parameter is empty"
+    csv = predict()
+    return csv
 
 
 if __name__ == "__main__": 
-    app.run(host="0.0.0.0", port=80)
+    app.run(host="0.0.0.0", port=8080)
+
