@@ -9,8 +9,9 @@ def main():
 
 
 @app.route("/healthcheck")
-def hello():
+def health_check():
     return "Ok."
+
 
 @app.route("/api/prediction/<string:project_id>")
 def prediction(project_id):    
@@ -20,8 +21,10 @@ def prediction(project_id):
         return "Error: flow parameter is empty"
     if day is None:
         return "Error: day parameter is empty"
-    csv = predict()  #TODO: predict should use flow nad day      
+    csv = predict()
     return csv
+
 
 if __name__ == "__main__": 
     app.run(host="0.0.0.0", port=8080)
+
