@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/carldata/argo/master/euro-naglowek.png "")
+![](https://raw.githubusercontent.com/carldata/argo/master/proj_header.png "")
 ### W tym oraz powiązanych repozytoriach umieszczono wyniki i programy, które powstały w trakcie trwania projektu
 
 # Predykacja wydajności sieci kanalizacyjno-burzowej w czasie rzeczywistym jako usługa Saas oparta na danych pozyskanych metodami uczenia maszynowego 
