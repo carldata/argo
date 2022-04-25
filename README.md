@@ -18,6 +18,9 @@ File structure:
 
 ### w repozytorium timeseries:
 
+[Biblioteka do przetwarzania serii czasowych:](https://github.com/carldata/timeseries)
+
+
 ## Installation
 
 All notebooks require:
