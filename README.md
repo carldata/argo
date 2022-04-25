@@ -3,7 +3,7 @@
 
 # Predykacja wydajności sieci kanalizacyjno-burzowej w czasie rzeczywistym jako usługa Saas oparta na danych pozyskanych metodami uczenia maszynowego 
 
-## projekt R&D w RAMACH PROGRAMU OPERACYJNEGO INTELIGENTNY ROZWÓJ 
+## w wyniku prac badawczo rozwojowych w RAMACH PROGRAMU OPERACYJNEGO INTELIGENTNY ROZWÓJ 
 
 
 ### repozytorium argo:
